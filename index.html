@@ -3,9 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Course home page for WDD231">
+    <meta name="author" content="Ezinne Zola Enyeazu">
+    <title>Course Home Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/navigation.js" defer></script>
+    <script src="js/date.js" defer></script>
+    <script src="js/course.js" defer></script>
 </head>
 <body>
-    
+    <header>
+        <img src="images/your-photo.jpg" alt="Ezinne Zola Enyeazu">
+        <span>Ezinne Zola Enyeazu</span>
+    </header>
+    <nav>
+        <button id="menu-btn">☰</button>
+        <ul id="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="https://github.com/Ezinne20">GitHub Profile</a></li>
+            <li><a href="https://www.linkedin.com/in/Ezinne Zola Enyeazu">LinkedIn</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <section>
+            <h2>Introduction</h2>
+            <p>Welcome to my course home page!</p>
+        </section>
+        <section>
+            <h2>Course Certificate</h2>
+            <div id="course-list"></div>
+            <button onclick="filterCourses('all')">All Courses</button>
+            <button onclick="filterCourses('WDD')">WDD Courses</button>
+            <button onclick="filterCourses('CSE')">CSE Courses</button>
+        </section>
+    </main>
+    <footer>
+        <p>© <span id="copyright-year"></span> Ezinne Zola Enyeazu, Nigeria</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>
