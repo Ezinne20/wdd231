@@ -37,16 +37,18 @@
     </header>
 
     <main>
-        <h2>Business Directory</h2>
-        <button id="gridView">Grid View</button>
-        <button id="listView">List View</button>
-        
-        <section id="directory" class="grid"></section>
+        <section id="directory" class="grid">
+            <h2>Business Directory</h2>
+            <div id="members"></div> <!-- This is where businesses will be dynamically added -->
+        </section>
     </main>
 
     <footer>
         <p>&copy; <span id="year"></span> Ezinne Zola Enyeazu | WDD 231</p>
         <p>Last Modified: <span id="lastModified"></span></p>
     </footer>
+
+    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/date.js" defer></script>
 </body>
 </html>
