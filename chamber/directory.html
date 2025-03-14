@@ -3,62 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chamber Directory</title>
-    <meta name="description" content="Discover businesses in [New York] with our Chamber of Commerce Business Directory. Find trusted services, contact details, and more.">
+    <meta name="description" content="Chamber of Commerce Business Directory">
     <meta name="author" content="Ezinne Zola Enyeazu">
-    <link rel="stylesheet" href="styles.css">
+
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:title" content="Business Directory | [Your City] Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/chamber-og-image.jpg">
+    <meta property="og:url" content="https://Ezinne20.github.io/wdd231/chamber/directory.html">
+
+    <!-- Favicon -->
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <script defer src="script.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- JavaScript -->
+    <script src="scripts/script.js" defer></script>
+
+    <title>Chamber Directory</title>
 </head>
 <body>
-
     <header>
-        <h1>Chamber of Commerce Directory</h1>
-        <button id="darkModeToggle">🌙 Dark Mode</button>
-        <input type="text" id="searchBox" placeholder="Search businesses...">
-        <select id="sortOptions">
-            <option value="name">Sort by Name</option>
-            <option value="membership">Sort by Membership Level</option>
-        </select>
-        <button id="gridView">Grid View</button>
-        <button id="listView">List View</button>
+        <h1>[Your City] Chamber of Commerce</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
+        <h2>Business Directory</h2>
+        <button id="gridView">Grid View</button>
+        <button id="listView">List View</button>
+        
         <section id="directory" class="grid"></section>
     </main>
 
     <footer>
-        <p>&copy; <span id="year"></span> Chamber of Commerce</p>
-        <p>Last Updated: <span id="lastModified"></span></p>
+        <p>&copy; <span id="year"></span> Ezinne Zola Enyeazu | WDD 231</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
     </footer>
-
 </body>
 </html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Page Title -->
-    <title>Business Directory | [New York] Chamber of Commerce</title>
-
-    <!-- Meta Description -->
-    <meta name="description" content="Discover businesses in [Your City] with our Chamber of Commerce Business Directory. Find trusted services, contact details, and more.">
-
-    <!-- Meta Author -->
-    <meta name="author" content="Ezinne Zola Enyeazu">
-
-    <!-- Open Graph (OG) Meta Tags for Social Media -->
-    <meta property="og:title" content="Business Directory | [New York] Chamber of Commerce">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="images/chamber-og-image.jpg">
-    <meta property="og:url" content="https://yourwebsite.com/chamber/directory.html">
-
-    <!-- Favicon -->
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    
-    <!-- CSS Link -->
-    <link rel="stylesheet" href="styles/style.css">
-</head>
-
