@@ -14,6 +14,14 @@
         "website": "https://Horzioncorp.com",
         "image": "Horizon.png",
         "membership": 1
+    },
+    {
+      "name": "Business 1",
+      "address": "123 Street, City",
+      "phone": "123-456-7890",
+      "website": "https://business1.com",
+      "image": "images/business1.jpg",
+      "membership": "gold"
     }
-]
- 
+  ]
+  
