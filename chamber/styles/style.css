@@ -155,3 +155,29 @@ footer p {
     padding: 10px;
     margin: 10px;
 }
+
+.membership-levels {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.membership-card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.membership-card:hover {
+    transform: scale(1.05);
+}
+
+dialog {
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
