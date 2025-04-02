@@ -1,0 +1,51 @@
+[
+    {
+      "name": "Local Park",
+      "address": "123 Park St, Hometown, USA",
+      "description": "A beautiful local park perfect for outdoor activities.",
+      "image": "images/park.webp"
+    },
+    {
+      "name": "Historical Museum",
+      "address": "456 History Ln, Hometown, USA",
+      "description": "Discover the rich history of our area at this museum.",
+      "image": "images/museum.webp"
+    },
+    {
+      "name": "City Zoo",
+      "address": "789 Zoo Rd, Hometown, USA",
+      "description": "Explore the animal kingdom at our local zoo.",
+      "image": "images/zoo.webp"
+    },
+    {
+      "name": "Botanical Garden",
+      "address": "101 Garden Ave, Hometown, USA",
+      "description": "A serene garden featuring beautiful flora and fauna.",
+      "image": "images/garden.webp"
+    },
+    {
+      "name": "Art Gallery",
+      "address": "202 Art Blvd, Hometown, USA",
+      "description": "A gallery showcasing contemporary and classical art.",
+      "image": "images/gallery.webp"
+    },
+    {
+      "name": "Theatre District",
+      "address": "303 Theatre Rd, Hometown, USA",
+      "description": "Enjoy world-class performances at the city's theatres.",
+      "image": "images/theatre.webp"
+    },
+    {
+      "name": "Mountain Trail",
+      "address": "404 Trail Rd, Hometown, USA",
+      "description": "Hike the scenic mountain trail for breathtaking views.",
+      "image": "images/trail.webp"
+    },
+    {
+      "name": "Beachfront",
+      "address": "505 Ocean Blvd, Hometown, USA",
+      "description": "Relax and enjoy the sun at the local beach.",
+      "image": "images/beach.webp"
+    }
+  ]
+  
