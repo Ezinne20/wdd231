@@ -20,6 +20,7 @@
         
         <!-- CSS Stylesheet -->
         <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/medium.css" media="screen and (min-width: 641px)">
       </head>
 <body>
   <header>
@@ -34,14 +35,23 @@
   </header>
 
   <main>
-    <section id="visit-info">
-      <!-- Last visit info will be dynamically inserted here -->
-    </section>
+   <!-- discover.html -->
+<main>
+  <section class="cards">
+    <div class="card">
+      <h2>Place Name</h2>
+      <figure>
+        <img src="images/name.webp" alt="Place image">
+      </figure>
+      <address>123 Example Street, YourCity</address>
+      <p>This is a short description of the place, highlighting its importance or appeal.</p>
+      <button>Learn More</button>
+    </div>
 
-    <section class="attractions">
-      <h2>Local Attractions</h2>
-      <div class="cards-container">
-        <!-- Cards will be dynamically loaded here using JavaScript -->
+    <!-- Repeat the .card block 7 more times for the 8 places -->
+  </section>
+</main>
+
       </div>
     </section>
   </main>
@@ -52,4 +62,26 @@
 
   <script src="scripts/spotlight.js"></script>
 </body>
+<div id="visitMessage"></div>
+
+<script>
+  const messageContainer = document.getElementById("visitMessage");
+  const lastVisit = localStorage.getItem("lastVisit");
+  const now = Date.now();
+
+  if (!lastVisit) {
+    messageContainer.textContent = "Welcome! Let us know if you have any questions.";
+  } else {
+    const msInADay = 86400000;
+    const daysSince = Math.floor((now - lastVisit) / msInADay);
+
+    if (daysSince < 1) {
+      messageContainer.textContent = "Back so soon! Awesome!";
+    } else {
+      messageContainer.textContent = `You last visited ${daysSince} day${daysSince > 1 ? "s" : ""} ago.`;
+    }
+  }
+
+  localStorage.setItem("lastVisit", now);
+</script>
 </html>

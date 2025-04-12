@@ -1,0 +1,53 @@
+{
+    "items": [
+      {
+        "title": "Tech Innovation Hub",
+        "image": "images/tech-innovation.webp",
+        "address": "123 Digital Way, Cyberville",
+        "description": "A modern co-working space that promotes cybersecurity startups and innovation."
+      },
+      {
+        "title": "CyberAware Museum",
+        "image": "images/cyber-museum.webp",
+        "address": "456 History Blvd, Net City",
+        "description": "An interactive museum focused on the history of the internet and cybersecurity milestones."
+      },
+      {
+        "title": "Digital Safety Park",
+        "image": "images/safety-park.webp",
+        "address": "789 Security Lane, Dataville",
+        "description": "A family-friendly park themed around digital responsibility and safety."
+      },
+      {
+        "title": "Encrypted Coffee Bar",
+        "image": "images/coffee-bar.webp",
+        "address": "321 Privacy St, Crypto Town",
+        "description": "A cozy spot for cybersecurity professionals and students to network and recharge."
+      },
+      {
+        "title": "Net Shield Academy",
+        "image": "images/academy.webp",
+        "address": "555 Firewall Ave, Hackerville",
+        "description": "A top-rated training institute offering courses on ethical hacking and digital forensics."
+      },
+      {
+        "title": "Phish-Free Zone",
+        "image": "images/phish-zone.webp",
+        "address": "777 Scam Blvd, Secureton",
+        "description": "An education center where users can learn how to avoid phishing and online scams."
+      },
+      {
+        "title": "Cloud Fortress Tower",
+        "image": "images/cloud-tower.webp",
+        "address": "999 Data Drive, Cloud City",
+        "description": "A skyscraper home to several cloud-based security companies and data centers."
+      },
+      {
+        "title": "SafeNet Public Library",
+        "image": "images/safenet-library.webp",
+        "address": "100 Library Ln, Infohaven",
+        "description": "A community library offering cybersecurity books, workshops, and events."
+      }
+    ]
+  }
+  
