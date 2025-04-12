@@ -83,7 +83,8 @@ footer p {
     grid-template-areas:
         "card1 card2 card3 card4"
         "card5 card6 card7 card8";
-    gap: 20px;
+    gap: 1rem;
+    padding: 1rem;
 }
 
 .card {
@@ -102,29 +103,4 @@ footer p {
 .card:hover {
     transform: scale(1.05);
     transition: transform 0.3s;
-}
-
-/* === Responsive Design === */
-@media (max-width: 1024px) {
-    .attractions .cards-container {
-        grid-template-areas:
-            "card1 card2"
-            "card3 card4"
-            "card5 card6"
-            "card7 card8";
-    }
-}
-
-@media (max-width: 640px) {
-    .attractions .cards-container {
-        grid-template-areas:
-            "card1"
-            "card2"
-            "card3"
-            "card4"
-            "card5"
-            "card6"
-            "card7"
-            "card8";
-    }
 }
