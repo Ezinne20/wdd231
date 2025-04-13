@@ -1,0 +1,61 @@
+{
+    "places": [
+      {
+        "name": "Port Harcourt Pleasure Park",
+        "image": "images/place_1.webp",
+        "alt": "Pleasure Park",
+        "address": "Abuloma Road, Port Harcourt",
+        "description": "A beautiful recreational park perfect for families and tourists."
+      },
+      {
+        "name": "Rivers State Cultural Center",
+        "image": "images/place_2.webp",
+        "alt": "Cultural Center",
+        "address": "Moscow Road, Port Harcourt",
+        "description": "Enjoy exhibitions and performances showcasing local heritage."
+      },
+      {
+        "name": "Isaac Boro Garden",
+        "image": "images/place_3.webp",
+        "alt": "Isaac Boro Garden",
+        "address": "Old GRA, Port Harcourt",
+        "description": "A peaceful spot for picnics, walks, and relaxation."
+      },
+      {
+        "name": "Port Harcourt Zoo",
+        "image": "images/zoo.webp",
+        "alt": "PH Zoo",
+        "address": "Trans Amadi Industrial Layout, PH",
+        "description": "Explore wildlife and learn about conservation in the city zoo."
+      },
+      {
+        "name": "Bonny Island",
+        "image": "images/beach.webp",
+        "alt": "Bonny Island Beach",
+        "address": "Bonny, Rivers State",
+        "description": "Famous for its natural beauty, beaches, and oil facilities."
+      },
+      {
+        "name": "King Jaja of Opobo’s Palace",
+        "image": "images/gallery.webp",
+        "alt": "King Jaja's Palace",
+        "address": "Opobo Town, Rivers State",
+        "description": "Historic residence of the legendary King Jaja of Opobo."
+      },
+      {
+        "name": "Mile One Market",
+        "image": "images/park.webp",
+        "alt": "Mile One Market",
+        "address": "Mile 1, Diobu, Port Harcourt",
+        "description": "One of the busiest marketplaces in the region for locals and visitors."
+      },
+      {
+        "name": "National Museum, Port Harcourt",
+        "image": "images/museum.webp",
+        "alt": "National Museum PH",
+        "address": "Bonny Street, Old GRA, PH",
+        "description": "Explore artifacts, artworks, and historical treasures of Nigeria."
+      }
+    ]
+  }
+  

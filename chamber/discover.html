@@ -4,13 +4,25 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Discover - Chamber of Commerce</title>
+  <meta name="description" content="Discover exciting places and local attractions through the Chamber of Commerce Discover page." />
+  <meta name="author" content="Ezinne Zola" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Discover - Chamber of Commerce" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="images/og-image.webp" />
+  <meta property="og:url" content="https://ezinne20.github.io/wdd231/chamber/discover.html" />
+
+  <!-- CSS Styles -->
   <link rel="stylesheet" href="styles/base.css" />
   <link rel="stylesheet" href="styles/medium.css" media="(min-width: 641px)" />
   <link rel="stylesheet" href="styles/large.css" media="(min-width: 1025px)" />
 </head>
 <body>
   <header>
-    <h1>Chamber of Commerce</h1>
     <nav>
       <a href="index.html">Home</a>
       <a href="discover.html" class="active">Discover</a>
@@ -20,96 +32,97 @@
   </header>
 
   <main class="discover-container">
+    <h1>Discover - Chamber of Commerce</h1>
+
     <aside class="sidebar">
       <div id="visit-message">Checking your last visit...</div>
     </aside>
 
     <section class="cards" id="cards-container">
-      <!-- Cards will be inserted here by JavaScript -->
+      <!-- Cards will be inserted here via JavaScript OR use static content below if needed -->
+
+      <div class="card">
+        <h2>Port Harcourt Pleasure Park</h2>
+        <figure>
+          <img src="images/place_1.webp" alt="Pleasure Park" loading="lazy" width="300" height="200" />
+        </figure>
+        <address>Abuloma Road, Port Harcourt</address>
+        <p>A beautiful recreational park perfect for families and tourists.</p>
+        <button>Learn More</button>
+      </div>
+
+      <div class="card">
+        <h2>Rivers State Cultural Center</h2>
+        <figure>
+          <img src="images/place_2.webp" alt="Cultural Center" loading="lazy" width="300" height="200" />
+        </figure>
+        <address>Moscow Road, Port Harcourt</address>
+        <p>Enjoy exhibitions and performances showcasing local heritage.</p>
+        <button>Learn More</button>
+      </div>
+
+      <div class="card">
+        <h2>Isaac Boro Garden</h2>
+        <figure>
+          <img src="images/place_3.webp" alt="Isaac Boro Garden" loading="lazy" width="300" height="200" />
+        </figure>
+        <address>Old GRA, Port Harcourt</address>
+        <p>A peaceful spot for picnics, walks, and relaxation.</p>
+        <button>Learn More</button>
+      </div>
+
+      <div class="card">
+        <h2>Port Harcourt Zoo</h2>
+        <figure>
+          <img src="images/zoo.webp" alt="PH Zoo" loading="lazy" width="300" height="200" />
+        </figure>
+        <address>Trans Amadi Industrial Layout, PH</address>
+        <p>Explore wildlife and learn about conservation in the city zoo.</p>
+        <button>Learn More</button>
+      </div>
+
+      <div class="card">
+        <h2>Bonny Island</h2>
+        <figure>
+          <img src="images/beach.webp" alt="Bonny Island Beach" loading="lazy" width="300" height="200" />
+        </figure>
+        <address>Bonny, Rivers State</address>
+        <p>Famous for its natural beauty, beaches, and oil facilities.</p>
+        <button>Learn More</button>
+      </div>
+
+      <div class="card">
+        <h2>King Jaja of Opobo’s Palace</h2>
+        <figure>
+          <img src="images/gallery.webp" alt="King Jaja's Palace" loading="lazy" width="300" height="200" />
+        </figure>
+        <address>Opobo Town, Rivers State</address>
+        <p>Historic residence of the legendary King Jaja of Opobo.</p>
+        <button>Learn More</button>
+      </div>
+
+      <div class="card">
+        <h2>Mile One Market</h2>
+        <figure>
+          <img src="images/park.webp" alt="Mile One Market" loading="lazy" width="300" height="200" />
+        </figure>
+        <address>Mile 1, Diobu, Port Harcourt</address>
+        <p>One of the busiest marketplaces in the region for locals and visitors.</p>
+        <button>Learn More</button>
+      </div>
+
+      <div class="card">
+        <h2>National Museum, Port Harcourt</h2>
+        <figure>
+          <img src="images/museum.webp" alt="National Museum PH" loading="lazy" width="300" height="200" />
+        </figure>
+        <address>Bonny Street, Old GRA, PH</address>
+        <p>Explore artifacts, artworks, and historical treasures of Nigeria.</p>
+        <button>Learn More</button>
+      </div>
     </section>
   </main>
-  <div class="cards">
-    <div class="card">
-      <h2>Port Harcourt Pleasure Park</h2>
-      <figure>
-        <img src="images/place_1.webp" alt="Pleasure Park">
-      </figure>
-      <address>Abuloma Road, Port Harcourt</address>
-      <p>A beautiful recreational park perfect for families and tourists.</p>
-      <button>Learn More</button>
-    </div>
-  
-    <div class="card">
-      <h2>Rivers State Cultural Center</h2>
-      <figure>
-        <img src="images/place_2.webp" alt="Cultural Center">
-      </figure>
-      <address>Moscow Road, Port Harcourt</address>
-      <p>Enjoy exhibitions and performances showcasing local heritage.</p>
-      <button>Learn More</button>
-    </div>
-  
-    <div class="card">
-      <h2>Isaac Boro Garden</h2>
-      <figure>
-        <img src="images/place_3.webp" alt="Isaac Boro Garden">
-      </figure>
-      <address>Old GRA, Port Harcourt</address>
-      <p>A peaceful spot for picnics, walks, and relaxation.</p>
-      <button>Learn More</button>
-    </div>
-  
-    <div class="card">
-      <h2>Port Harcourt Zoo</h2>
-      <figure>
-        <img src="images/zoo.webp" alt="PH Zoo">
-      </figure>
-      <address>Trans Amadi Industrial Layout, PH</address>
-      <p>Explore wildlife and learn about conservation in the city zoo.</p>
-      <button>Learn More</button>
-    </div>
-  
-    <div class="card">
-      <h2>Bonny Island</h2>
-      <figure>
-        <img src="images/beach.webp" alt="Bonny Island Beach">
-      </figure>
-      <address>Bonny, Rivers State</address>
-      <p>Famous for its natural beauty, beaches, and oil facilities.</p>
-      <button>Learn More</button>
-    </div>
-  
-    <div class="card">
-      <h2>King Jaja of Opobo’s Palace</h2>
-      <figure>
-        <img src="images/gallery.webp" alt="King Jaja's Palace">
-      </figure>
-      <address>Opobo Town, Rivers State</address>
-      <p>Historic residence of the legendary King Jaja of Opobo.</p>
-      <button>Learn More</button>
-    </div>
-  
-    <div class="card">
-      <h2>Mile One Market</h2>
-      <figure>
-        <img src="images/park.webp" alt="Mile One Market">
-      </figure>
-      <address>Mile 1, Diobu, Port Harcourt</address>
-      <p>One of the busiest marketplaces in the region for locals and visitors.</p>
-      <button>Learn More</button>
-    </div>
-  
-    <div class="card">
-      <h2>National Museum, Port Harcourt</h2>
-      <figure>
-        <img src="images/museum.webp" alt="National Museum PH">
-      </figure>
-      <address>Bonny Street, Old GRA, PH</address>
-      <p>Explore artifacts, artworks, and historical treasures of Nigeria.</p>
-      <button>Learn More</button>
-    </div>
-  </div>
-  
+
   <footer>
     <p>&copy; 2025 Chamber of Commerce</p>
   </footer>
