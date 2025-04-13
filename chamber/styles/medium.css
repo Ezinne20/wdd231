@@ -1,23 +1,8 @@
-@media (min-width: 641px) {
-    .card img:hover {
-      filter: brightness(1.2);
-      transform: scale(1.05);
-      transition: all 0.3s ease-in-out;
-    }
-  }
-  @media screen and (min-width: 641px) {
-    .cards {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  
-    .card img:hover {
-      transform: scale(1.05);
-    }
-  }
-  
-  @media screen and (min-width: 1025px) {
-    .cards {
-      grid-template-columns: repeat(4, 1fr);
-    }
-  }
-    
+.discover-container {
+  grid-template-areas: "sidebar cards";
+  grid-template-columns: 1fr 3fr;
+}
+
+.cards {
+  grid-template-columns: repeat(2, 1fr);
+}
