@@ -1,0 +1,19 @@
+[
+    {
+      "title": "Phishing Attacks",
+      "description": "Phishing attacks involve tricking individuals into revealing confidential information via deceptive emails, websites, or phone calls."
+    },
+    {
+      "title": "Ransomware",
+      "description": "Ransomware is a type of malicious software that encrypts the victim's data and demands payment for the decryption key."
+    },
+    {
+      "title": "Data Breaches",
+      "description": "A data breach occurs when sensitive data is accessed or exposed by unauthorized individuals or entities."
+    },
+    {
+      "title": "Social Engineering",
+      "description": "Social engineering is a manipulation tactic used to deceive individuals into divulging confidential information."
+    }
+  ]
+  

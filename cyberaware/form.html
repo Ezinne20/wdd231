@@ -1,0 +1,54 @@
+<!-- form.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact form for inquiries and feedback.">
+  <meta property="og:title" content="CyberAware - Contact Us">
+  <meta property="og:description" content="Get in touch with CyberAware for any questions or feedback.">
+  <title>CyberAware | Contact</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header>
+    <h1>CyberAware</h1>
+    <nav>
+      <button id="menu-button">☰</button>
+      <ul id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="threats.html">Threats</a></li>
+        <li><a href="tips.html">Tips</a></li>
+        <li><a href="form.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <h2>Contact Us</h2>
+      <p>Have any questions or feedback? We’d love to hear from you!</p>
+    </section>
+
+    <section class="form-container">
+      <form action="thankyou.html" method="post" id="contact-form">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 CyberAware | <a href="attributions.html">Attributions</a></p>
+  </footer>
+</body>
+</html>
